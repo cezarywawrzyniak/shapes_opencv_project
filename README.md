@@ -3,7 +3,7 @@ Projekt na przedmiot Systemy Wizyjne, którego celem było wykrywanie kształtó
 
 Rodzaje kształtów:
 
-<img src="https://github.com/cezarywawrzyniak/shapes_opencv_project/blob/main/shape_types.png" width=50% height=50%>
+<img src="https://github.com/cezarywawrzyniak/shapes_opencv_project/blob/main/shape_types.png" width=51% height=51%>
 
 Na wyjście podawana jest lista, której poszczególne wartości oznaczają liczebność danego kształtu (pierwsze 5) i koloru (ostatnie 6) w formacie:
 
@@ -11,7 +11,7 @@ Na wyjście podawana jest lista, której poszczególne wartości oznaczają licz
 
 Dodatkowo każde zdjęcie jest wizualizowane np.:
 
-<img src="https://github.com/cezarywawrzyniak/shapes_opencv_project/blob/main/working_example.png" width=80% height=80%>
+<img src="https://github.com/cezarywawrzyniak/shapes_opencv_project/blob/main/working_example.png" width=81% height=81%>
 
 ## Opis działania: 
 Pierwszą funkcją wywoływaną w kodzie jest create_models(), która uzupełnia 5 list wyliczonymi na podstawie przykładów średnimi momentami Hu (pierwszymi 4), które później zostaną wykorzystane do wykrywania kształtów. Reszta działania podzielona jest na 3 etapy:
